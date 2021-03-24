@@ -230,7 +230,7 @@ function makeTableHTML(comp, myArray) {
     var result = "<table border=1>";
     result += "<tr> <th colspan='2'> Distribuição Granulométrica de " + comp + "</th> </tr>";
     result += "<td> Diâmetro da Partícula (m) </td>";
-    result += "<td> Porcentagem </td>";
+    result += "<td> % Acumulada > Dp </td>";
 
     for (var j = 0; j < myArray[0].length; j++) {
         result += "<tr>";
